@@ -153,6 +153,7 @@ class MainWindow(QMainWindow):
             input_box.setAlignment(Qt.AlignmentFlag.AlignRight)
             input_box.setSingleStep(1)
             input_box.setMinimum(0)
+            input_box.setMaximum(999999)
 
         self.shortcut_handler = ShortcutHandler()
         self.shortcut_handler.set_hotkey(self.shortcut)
