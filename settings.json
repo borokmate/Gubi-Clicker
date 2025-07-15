@@ -1,0 +1,14 @@
+{
+    "shortcut": "ctrl+a",
+    "hour": 0,
+    "min": 0,
+    "sec": 0,
+    "milsec": 10,
+    "mouse_btn": 0,
+    "click_type": 0,
+    "repeat": false,
+    "amount": 1,
+    "set_pos": false,
+    "x": 0,
+    "y": 0
+}
