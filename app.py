@@ -382,7 +382,7 @@ class MainWindow(QMainWindow):
                 if not self.running:
                     return
                 if self.is_current_location:
-                    self.mouse.position(self.x, self.y)
+                    self.mouse.position = (self.x, self.y)
                 self.mouse.click(self.index_to_mouse_button[self.current_click])
                 if self.click_type == 1: self.mouse.click(self.index_to_mouse_button[self.current_click])
         else:
